@@ -26,10 +26,6 @@
 % Configure page margins with geometry
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
 
-% Publications list uses \nobibliography from bibentry
-\usepackage[numbers]{natbib}
-\usepackage{bibentry}
-
 % Specify the location of the included fonts
 \fontdir[fonts/]
 
@@ -62,13 +58,12 @@
 %-------------------------------------------------------------------------------
 % Available options: circle|rectangle,edge/noedge,left/right
 % \photo[rectangle,edge,right]{./examples/profile}
-\name{Dr Pezhman}{Zarabadi}
-\position{Chief Data Engineer}
-\email{pezhman.zarabadipoor@fortescue.com}
-\linkedin{pezh-zarabadi}
-\github{ezpzbz}
-% \homepage{https://ezpzbz.github.io/automated-resume-build/resume.pdf}
-\location{Oxford, UK}
+\name{José}{Santos}
+\position{Senior Data Engineer}
+\linkedin{josemrsantos}
+\github{josemrsantos}
+\homepage{josemrsantos.com}
+\location{London, UK}
 %-------------------------------------------------------------------------------
 
 \begin{document}
@@ -81,7 +76,7 @@
 % Leave any of these blank if they are not needed
 \makecvfooter
 {\today}
-{Up-to-date version at \upshape\color{text}\url{https://ezpzbz.github.io/automated-cv/resume.pdf}}
+{Up-to-date version at \upshape\color{text}\url{https://josemrsantos.github.io/automated-cv/resume.pdf}}
 {\thepage}
 
 %-------------------------------------------------------------------------------
@@ -89,13 +84,15 @@
 %  Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
 \input{sections/summary.tex}
-\input{sections/experience-cde.tex}
+\input{sections/experience.tex}
 \medskip
 \vspace{1em}
 \input{sections/education.tex}
 \vspace{-1em}
-\input{sections/skills-pezh.tex}
-\input{sections/tech.tex}
+\input{sections/skills.tex}
+\input{sections/projects.tex}
+\input{sections/communication.tex}
+\input{sections/interests.tex}
 \medskip
 
 %-------------------------------------------------------------------------------
