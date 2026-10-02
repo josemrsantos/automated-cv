@@ -87,10 +87,10 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GIT_AUTHOR_NAME: ezpzbz
-          GIT_AUTHOR_EMAIL: pzarabadip@gmail.com
-          GIT_COMMITTER_NAME: ezpzbz
-          GIT_COMMITTER_EMAIL: pzarabadip@gmail.com
+          GIT_AUTHOR_NAME: github-actions[bot]
+          GIT_AUTHOR_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+          GIT_COMMITTER_NAME: github-actions[bot]
+          GIT_COMMITTER_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
         run: |
           npx \
             -p @semantic-release/commit-analyzer \
