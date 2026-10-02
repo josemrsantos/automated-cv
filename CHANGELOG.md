@@ -1,3 +1,32 @@
+## 1.0.0 (2026-10-02)
+
+### CI
+
+* point semantic-release at this fork ([1d1b18a](https://github.com/josemrsantos/automated-cv/commit/1d1b18a219c7cff08569329412e1ba72de623c0d))
+* use github-actions identity for release commits ([8e50e48](https://github.com/josemrsantos/automated-cv/commit/8e50e488ca32f768706ba66933798ef998cf34c0))
+
+### Documentations
+
+* update README for this fork and disclose LLM assistance ([38265e3](https://github.com/josemrsantos/automated-cv/commit/38265e39dccf2250732fe2944ac7c1bd4e2d94b0))
+
+### Features
+
+* **contents:** add communication and interests sections ([cf463e6](https://github.com/josemrsantos/automated-cv/commit/cf463e68743ad19251b09eb5b40951c6e3d387f1))
+* **contents:** add company descriptions to earlier roles ([1d1d8b8](https://github.com/josemrsantos/automated-cv/commit/1d1d8b8867fac29ef0ff50c6d77c69f778e7b63b))
+* **contents:** add earlier experience (MSK.ai, WorldRemit, DUCO, Import.io) ([ec4e7fa](https://github.com/josemrsantos/automated-cv/commit/ec4e7fa0866cd4380f9165a551381e996ee8a09b))
+* **contents:** add recent experience (Midnite, Speedcast) ([04443fa](https://github.com/josemrsantos/automated-cv/commit/04443fae0c7dcccf5e7d31320b6920fc15c2721b))
+* **contents:** replace codes section with selected technical projects ([60874b8](https://github.com/josemrsantos/automated-cv/commit/60874b84d35f1d9106216eaa10d04f194273aa13))
+* **contents:** update education and certifications ([381723b](https://github.com/josemrsantos/automated-cv/commit/381723b1a2ccd228ebb7956cd2cbe04bae2f3e8a))
+* **contents:** update personal details ([7f991b7](https://github.com/josemrsantos/automated-cv/commit/7f991b7ae3ec9f21c438bc508d11ff1bcb526500))
+* **contents:** update skills ([f99822a](https://github.com/josemrsantos/automated-cv/commit/f99822aa79fd05c85c4cc3c969a1d0d31515cb7a))
+* **contents:** update summary ([45c22a5](https://github.com/josemrsantos/automated-cv/commit/45c22a581229fa7064ce474e61e69d7bf332677c))
+
+### Refactor
+
+* rename experience-cde.tex to experience.tex ([480196c](https://github.com/josemrsantos/automated-cv/commit/480196c06d066a57ece618397b67d1d8be37426e))
+* rename skills-pezh.tex to skills.tex ([162bdae](https://github.com/josemrsantos/automated-cv/commit/162bdae4cc16394f1101154e5dffc7ef25cef008))
+* rename tech.tex to projects.tex ([c94ff1a](https://github.com/josemrsantos/automated-cv/commit/c94ff1a1eb7430486bcda656eeefacc86c85f20f))
+
 ## [2.1.0](https://github.com/kirintwn/resume/compare/v2.0.0...v2.1.0) (2022-05-13)
 
 
