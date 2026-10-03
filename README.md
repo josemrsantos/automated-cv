@@ -49,7 +49,7 @@ Commits follow [Conventional Commits](https://www.conventionalcommits.org/) (`fe
 
 ## Use of AI assistance
 
-I used an LLM to help convert my CV content into the LaTeX (`.tex`) files in `src/sections/`, as I have not worked with LaTeX before. I reviewed the generated code, built the PDF and ran the checks myself, and the repository work (forking, branching, commits, pull request and CI setup) was done by me.
+I used an LLM to help convert my CV content into the LaTeX (`.tex`) files in `src/sections/`, as I have not worked with LaTeX before, and for guidance on the repository workflow (Git commands, branching, pull request and CI setup). I ran the commands, reviewed the changes, built the PDF and ran the checks myself.
 
 ## Credits
 
